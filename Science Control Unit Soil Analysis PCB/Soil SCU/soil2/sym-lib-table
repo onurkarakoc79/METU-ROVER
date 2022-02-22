@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name rcu)(type Legacy)(uri C:/Users/onurk/Desktop/RCU/rcu.lib)(options "")(descr ""))
+  (lib (name RCU-cache)(type Legacy)(uri C:/Users/onurk/Desktop/RCU/RCU-cache.lib)(options "")(descr ""))
+  (lib (name RCU-rescue)(type Legacy)(uri C:/Users/onurk/Desktop/RCU/RCU-rescue.lib)(options "")(descr ""))
+)

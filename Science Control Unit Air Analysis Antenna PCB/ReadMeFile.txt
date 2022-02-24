@@ -1,0 +1,7 @@
+What is the PCB made for:
+
+The PCB drawn for the antenna contains one stm32 control card, six sensor inputs, a CAN module for communication with the host. The antenna can detect CO, CH4, and H2 gases thanks to these six sensors. It can measure the intensity of UV light and the amount of dust in the air and accurately detect the temperature and humidity of the air. The necessary data is read through sensors, organized and rationalized in the stm32 processor, and reaches the central control unit via the can module, then to the rover host (Nvidia Jetson TX2), and finally to the epicenter with the help of Lora. are taken from the computer. The results are used for the projected thesis.
+
+PCB description:
+
+It has a straightforward structure. 6 JST inputs are given for six sensors, and a voltage divider is used for the sensor outputs that work with 5 volts because of stm32 works with 3.3V. PCB is 2-layer, the 5v field covers the first layer, and the GND field covers the second layer. Although the main power entering the PCB is 24v, it is reduced to 5v with the help of the voltage regulator and transmitted to the sensors. Instead of being created with PCB Smd components, it is designed in such a way that female header pins that can serve as a basic breadboard due to its ease of assembly and interchangeability and a ready-made stm32 blue battery can be placed on it, so the system is made usable without the need to convert 5V to 3.3 volts for STM.

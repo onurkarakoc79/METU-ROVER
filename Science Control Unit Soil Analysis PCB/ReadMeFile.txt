@@ -1,5 +1,7 @@
 # Metu Rover Soil Analysis PCB
+
 ## What the PCB is Designed For
+
 The Soil Analysis Box is a crucial component of the Analysis Unit and is responsible for conducting soil analysis on the Metu Rover. The PCB (Printed Circuit Board) described here plays a significant role in controlling and managing various components within the Soil Analysis Box. The key features and functionalities of the Soil Analysis Box are as follows:
 
 Drilling Mechanism: The box includes a driller for digging into the soil.
@@ -10,7 +12,9 @@ Sensors: The analysis box incorporates three weight sensors, one soil moisture s
 STM32 Microcontrollers: Two STM32 microcontrollers are utilized for faster processing and pin management. They are connected via UART communication protocol.
 Data Transmission: The PCB facilitates the transmission of collected data from sensors to the main computer and subsequently to the base for further analysis.
 Motor Control: The PCB determines the operating time of the motors and controls the number of steps the stepper motors will run.
+
 ## PCB Description
+
 The PCB design takes into consideration the challenges associated with mounting SMD components and ensures easy replacement of the STM32 Blue Pill boards. The following key aspects are associated with the PCB design:
 
 Dual STM32 Configuration: Two STM32 microcontrollers are utilized to distribute processing load and overcome pin shortage. UART communication is established between the two microcontrollers, with one acting as the primary communicator with the host while waking up the other for specific tasks.

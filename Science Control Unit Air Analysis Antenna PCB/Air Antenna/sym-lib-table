@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name airSCU-rescue)(type Legacy)(uri ${KIPRJMOD}/airSCU-rescue.lib)(options "")(descr ""))
-)

@@ -1,6 +1,6 @@
 # Computer Vision Rover Path Planning
 
-This is a path planning code for a rover developed using Python. The code utilizes the Dijkstra's algorithm to find the shortest path between a given start point and an end point, considering obstacles in the environment. It is designed to work with images as input for computer vision applications.
+This is a path planning code for a rover developed using Python. The code utilizes Dijkstra's algorithm to find the shortest path between a given start point and an endpoint, considering obstacles in the environment. It is designed to work with images as input for computer vision applications.
 
 ## Features
 
@@ -11,7 +11,7 @@ This is a path planning code for a rover developed using Python. The code utiliz
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3. x
 
 ## Installation
 
@@ -22,7 +22,7 @@ git clone <https://github.com/onurkarakoc79/METU-ROVER.git)>
 pip install -r requirements.txt
 
 Usage
-Configure the map and obstacle settings in the main() function of Map.py file.
+Configure the map and obstacle settings in the main() function of the Map.py file.
 Prepare an input image of the map on which you want to perform path planning.
 Run the path planning code:
 shell
@@ -30,16 +30,19 @@ Copy code
 
 python3 Map.py
 
-After execute Map.py file you dont need to execute everytime unless map were changed.
-After that execute VisualwithClick.py file
+After executing the Map.py file you don't need to execute it every time unless the map was changed.
+After that execute the VisualwithClick.py file
 Copy code
 
 python3 VisualwithClick.py
 
 Click on the image to specify the start and end points.
 The calculated path will be displayed on the image.
-You can close the window with ESC button.
+You can close the window with the ESC button.
 
 
-![Alt text]()
+![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/PATH_PLANNING_ALGORITHM/Screenshots/Screenshot%20from%202023-07-14%2002-44-29.png)
+
+
+![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/PATH_PLANNING_ALGORITHM/Screenshots/Screenshot%20from%202023-07-14%2002-44-46.png)
 

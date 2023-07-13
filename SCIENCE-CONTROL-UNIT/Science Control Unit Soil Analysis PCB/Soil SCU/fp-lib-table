@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Project Footprints")(type KiCad)(uri "/home/onurkarakoc79/Desktop/KiCAD Files/SCU Soil/Project Footprints")(options "")(descr ""))
+  (lib (name rover_packages)(type KiCad)(uri "/home/onurkarakoc79/Desktop/KiCAD Files/SCU Soil/rover_packages")(options "")(descr ""))
+)

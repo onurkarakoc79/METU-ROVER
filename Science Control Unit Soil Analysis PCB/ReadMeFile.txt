@@ -1,8 +1,23 @@
-What the PCB is designed for:
+# Metu Rover Soil Analysis PCB
+## What the PCB is Designed For
+The Soil Analysis Box is a crucial component of the Analysis Unit and is responsible for conducting soil analysis on the Metu Rover. The PCB (Printed Circuit Board) described here plays a significant role in controlling and managing various components within the Soil Analysis Box. The key features and functionalities of the Soil Analysis Box are as follows:
 
-The soil analysis box of the analysis unit includes one driller, four small, one large, five stepper motors, five servo motors, three vibration motors, three bmp280 pressure sensors, three weight sensors, one soil moisture sensor, one temperature, and two stm32s. This analysis box first digs the soil with a driller, sifts the earth with vibration motors, and fills it into test tubes. Then, certain chemicals are poured into a set of test tubes with the help of servo motors, other properties such as weight and humidity of the rest are measured, and necessary calculations are made. The results are sent to the main computer and from there to the base, and the vitality in the soil is determined according to these test results. In this task, the PCB determines the operating time of the motors, reads data from the sensors, and transmits the read data to the host.
+Drilling Mechanism: The box includes a driller for digging into the soil.
+Vibration Motors: Four small vibration motors and three bmp280 pressure sensors are used to sift the earth and collect soil samples.
+Servo Motors: Five servo motors are employed to pour certain chemicals into test tubes.
+Stepper Motors: Five small stepper motors and one large stepper motor (Nema23) are used for precise movements and control.
+Sensors: The analysis box incorporates three weight sensors, one soil moisture sensor, one temperature sensor, and three bmp280 pressure sensors to measure various soil properties.
+STM32 Microcontrollers: Two STM32 microcontrollers are utilized for faster processing and pin management. They are connected via UART communication protocol.
+Data Transmission: The PCB facilitates the transmission of collected data from sensors to the main computer and subsequently to the base for further analysis.
+Motor Control: The PCB determines the operating time of the motors and controls the number of steps the stepper motors will run.
+## PCB Description
+The PCB design takes into consideration the challenges associated with mounting SMD components and ensures easy replacement of the STM32 Blue Pill boards. The following key aspects are associated with the PCB design:
 
-
-PCB description:
-
-Again, due to the difficulty of mounting the SMD components, the removable stm32 blue battery cards were chosen as the processor and integrated into the card as easily replaceable. 2 STM was used to get a faster and cleaner result by dividing the pin shortage and the processing load. These two STMs were connected with the UART communication protocol. Only one of these STMs communicates with the host and wakes the other stm for work to be done. It is responsible for continuously reading data from the stm sensors to communicate with the computer and ensure communication. The other STM, which is waiting to hear from this stm and sleeps for power saving the rest of the time, determines the operating timing of the motors and how many steps the engine will run. The PCB is again 2-layer, and the top layer is covered with 5V, 3.3V, and VCC(24V) areas. The GND line entirely covers the bottom layer. It is a 24V primary power input lowered to 5V for necessary sensors with a voltage regulator. The regulator of the STM32 provides the 3.3V line. Communication with the host is also provided via the CAN module. A transistor controls vibration motors, four stepper motor drivers are directly integrated into the circuit, while an external stepper driver stm can activate a nema23 large stepper motor.
+Dual STM32 Configuration: Two STM32 microcontrollers are utilized to distribute processing load and overcome pin shortage. UART communication is established between the two microcontrollers, with one acting as the primary communicator with the host while waking up the other for specific tasks.
+Sensor Readings and Communication: The primary STM32 continuously reads data from the sensors and facilitates communication with the computer. It ensures a steady flow of information between the PCB and the host.
+Motor Control: The secondary STM32, which is in a sleep state most of the time for power-saving purposes, determines the operating timing of the motors and controls the steps taken by the stepper motors.
+Power and Ground Layers: The PCB consists of two layers, with the top layer dedicated to 5V, 3.3V, and VCC (24V) areas. The bottom layer is entirely covered by the GND line.
+Power Supply: The PCB includes a voltage regulator to step down the primary 24V power input to 5V for the necessary sensors. The STM32's internal regulator provides the 3.3V line.
+Communication: The PCB utilizes the CAN (Controller Area Network) module for communication with the host.
+Motor Control and Integration: Vibration motors are controlled using transistors, while four stepper motor drivers are integrated directly into the circuit. Additionally, an external stepper driver stm is employed to activate the Nema23 large stepper motor.
+Please note that this is a high-level overview of the Metu Rover Soil Analysis PCB. For more detailed information and technical specifications, please refer to the relevant documentation.

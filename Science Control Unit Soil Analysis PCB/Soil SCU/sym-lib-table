@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Soil_SCU-cache)(type Legacy)(uri "${KIPRJMOD}/Soil SCU-cache.lib")(options "")(descr ""))
-  (lib (name Soil_SCU-rescue)(type Legacy)(uri "${KIPRJMOD}/Soil SCU-rescue.lib")(options "")(descr ""))
-)

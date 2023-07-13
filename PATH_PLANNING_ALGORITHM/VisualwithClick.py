@@ -35,11 +35,12 @@ def main():
 
     Visualization=Visual(image,Map.Ways(MapNp["ObstacleList"])) 
     cv2.imshow("image",image)
-  
-    cv2.setMouseCallback("image",Visualization.click_event)
-
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    while True:
+        cv2.setMouseCallback("image",Visualization.click_event)
+        key=cv2.waitKey(1)
+        if key==ord('q'):
+            cv2.destroyAllWindows()
+            break
 
 class Visual():
     def __init__(self,image,ways):

@@ -16,3 +16,8 @@ Interchangeability and Assembly: Instead of utilizing SMD components, the PCB is
 
 As a result, the system can be used without the need for voltage level conversion from 5V to 3.3V for the STM32 microcontroller.
 Please note that this is a summary of the key features of the antenna PCB. For more detailed technical specifications and information, please refer to the relevant documentation.
+
+
+![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/SCIENCE-CONTROL-UNIT/Science%20Control%20Unit%20Air%20Analysis%20Antenna%20PCB/Screenshots/Screenshot%20from%202023-07-14%2000-05-08.png)
+
+![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/SCIENCE-CONTROL-UNIT/Science%20Control%20Unit%20Air%20Analysis%20Antenna%20PCB/Screenshots/Screenshot%20from%202023-07-14%2000-05-01.png)

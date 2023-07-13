@@ -40,4 +40,4 @@ Motor Control and Integration: Vibration motors are controlled using transistors
 Please note that this is a high-level overview of the Metu Rover Soil Analysis PCB. For more detailed information and technical specifications, please refer to the relevant documentation.
 
 ![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/SCIENCE-CONTROL-UNIT/Science%20Control%20Unit%20Soil%20Analysis%20PCB/Screenshot%20from%202023-07-13%2023-53-51.png)
-![Alt text]((https://github.com/onurkarakoc79/METU-ROVER/blob/main/SCIENCE-CONTROL-UNIT/Science%20Control%20Unit%20Soil%20Analysis%20PCB/Screenshot%20from%202023-07-13%2023-54-03.png)https://github.com/onurkarakoc79/METU-ROVER/blob/main/SCIENCE-CONTROL-UNIT/Science%20Control%20Unit%20Soil%20Analysis%20PCB/Screenshot%20from%202023-07-13%2023-54-03.png)
+![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/SCIENCE-CONTROL-UNIT/Science%20Control%20Unit%20Soil%20Analysis%20PCB/Screenshot%20from%202023-07-13%2023-54-03.png)

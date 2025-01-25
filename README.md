@@ -11,9 +11,7 @@ The METU Rover project focuses on developing advanced robotics solutions for exp
 Setup Instructions
 To clone the repository for one of my published modules:
 
-bash
-Kopyala
-Düzenle
-git clone https://github.com/onurkarakoc79/EE447-Temperature-Initiated-Object-Detection.git
+
+git clone https://github.com/onurkarakoc79/EE447-Temperature-Initiated-Object-Detection.git 
 About METU Rover
 Learn more about the METU Rover project at METU Rover Website.

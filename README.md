@@ -16,3 +16,5 @@ To clone the repository for one of my published modules:
 <pre> git clone https://github.com/onurkarakoc79/EE447-Temperature-Initiated-Object-Detection.git  </pre>
 About METU Rover
 Learn more about the METU Rover project at METU Rover Website.
+
+<pre> https://meturover.com </pre>

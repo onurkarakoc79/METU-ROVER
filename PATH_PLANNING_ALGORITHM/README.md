@@ -16,10 +16,10 @@ This is a path planning code for a rover developed using Python. The code utiliz
 ## Installation
 
 1. Clone the repository to your local machine:
-'''bash
-  git clone https://github.com/onurkarakoc79/METU-ROVER.git)
-'''
 
+```bash
+   git clone https://github.com/onurkarakoc79/METU-ROVER.git
+```
 
 3. Install requirement libraries
 pip install -r requirements.txt

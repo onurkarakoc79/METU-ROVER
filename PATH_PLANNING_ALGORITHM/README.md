@@ -16,9 +16,12 @@ This is a path planning code for a rover developed using Python. The code utiliz
 ## Installation
 
 1. Clone the repository to your local machine:
-<pre> git clone https://github.com/onurkarakoc79/METU-ROVER.git) </pre>
+'''bash
+  git clone https://github.com/onurkarakoc79/METU-ROVER.git)
+'''
 
-2. Install requirement libraries
+
+3. Install requirement libraries
 pip install -r requirements.txt
 
 Usage
@@ -46,14 +49,13 @@ You can close the window with the ESC button.
 
 ![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/PATH_PLANNING_ALGORITHM/Screenshots/Screenshot%20from%202023-07-14%2002-44-46.png)
 
-
 ## Contact
 
-If you have any questions, feedback, or inquiries related to the  project, feel free to reach out to us:
-
-Metu Rover Team: https://meturover.com
+If you have any questions, feedback, or inquiries related to the project, feel free to reach out to me:
 
 My personal mail: onurkarakoc79@gmail.com
+
                   
-We appreciate your interest in our project and look forward to collaborating with you in the fascinating field of scientific exploration and discovery.
+I appreciate your interest in my projects and look forward to collaborating with you in the fascinating field of scientific exploration and discovery.
+
 

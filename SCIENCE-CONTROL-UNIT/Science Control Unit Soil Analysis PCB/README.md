@@ -41,3 +41,13 @@ Please note that this is a high-level overview of the Metu Rover Soil Analysis P
 
 ![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/SCIENCE-CONTROL-UNIT/Science%20Control%20Unit%20Soil%20Analysis%20PCB/Screenshots/Screenshot%20from%202023-07-13%2023-53-51.png)
 ![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/SCIENCE-CONTROL-UNIT/Science%20Control%20Unit%20Soil%20Analysis%20PCB/Screenshots/Screenshot%20from%202023-07-13%2023-54-03.png)
+
+
+## Contact
+
+If you have any questions, feedback, or inquiries related to the project, feel free to reach out to me:
+
+My personal mail: onurkarakoc79@gmail.com
+
+                  
+I appreciate your interest in my projects and look forward to collaborating with you in the fascinating field of scientific exploration and discovery.

@@ -46,3 +46,14 @@ You can close the window with the ESC button.
 
 ![Alt text](https://github.com/onurkarakoc79/METU-ROVER/blob/main/PATH_PLANNING_ALGORITHM/Screenshots/Screenshot%20from%202023-07-14%2002-44-46.png)
 
+
+## Contact
+
+If you have any questions, feedback, or inquiries related to the  project, feel free to reach out to us:
+
+Metu Rover Team: https://meturover.com
+
+My personal mail: onurkarakoc79@gmail.com
+                  
+We appreciate your interest in our project and look forward to collaborating with you in the fascinating field of scientific exploration and discovery.
+

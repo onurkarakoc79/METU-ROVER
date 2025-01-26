@@ -20,3 +20,13 @@ About METU Rover
 Learn more about the METU Rover project at METU Rover Website.
 
 <pre> https://meturover.com </pre>
+
+## Contact
+
+If you have any questions, feedback, or inquiries related to the project, feel free to reach out to me:
+
+My personal mail: onurkarakoc79@gmail.com
+
+                  
+I appreciate your interest in my projects and look forward to collaborating with you in the fascinating field of scientific exploration and discovery.
+

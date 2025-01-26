@@ -12,13 +12,11 @@ The Air Sensor Antenna is another integral part of Metu Rover's Analysis Unit. T
 
 ## Contact
 
-If you have any questions, feedback, or inquiries related to the Metu Rover Science Control Unit project, feel free to reach out to us:
+If you have any questions, feedback, or inquiries related to the project, feel free to reach out to us:
 
 Metu Rover Team: https://meturover.com
 
 My personal mail: onurkarakoc79@gmail.com
-
-e242320@metu.edu.tr
                   
 We appreciate your interest in our project and look forward to collaborating with you in the fascinating field of scientific exploration and discovery.
 

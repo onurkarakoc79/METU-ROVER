@@ -92,7 +92,9 @@ class Visual():
         else:
             self.drawcircle(image_copy,Start_Point.Coord,4,0,255,255,-1)
             self.drawcircle(image_copy,End_Point.Coord,4,0,255,255,-1)
-        np.savez("Paths",path_points=path)
+        path_array = np.array(path, dtype=object) # veya np.asarray(path, dtype=object)
+        np.savez("Paths",path_points=path_array)
+        
         print("path",path,path_cost)
         
         cv2.imshow("image",image_copy)
